@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link LsitViewFragment#newInstance} factory method to
+ * Use the {@link ListViewFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class LsitViewFragment extends Fragment {
+public class ListViewFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +24,7 @@ public class LsitViewFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public LsitViewFragment() {
+    public ListViewFragment() {
         // Required empty public constructor
     }
 
@@ -37,8 +37,8 @@ public class LsitViewFragment extends Fragment {
      * @return A new instance of fragment LsitViewFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static LsitViewFragment newInstance(String param1, String param2) {
-        LsitViewFragment fragment = new LsitViewFragment();
+    public static ListViewFragment newInstance(String param1, String param2) {
+        ListViewFragment fragment = new ListViewFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
