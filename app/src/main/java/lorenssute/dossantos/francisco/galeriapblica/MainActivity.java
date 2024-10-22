@@ -1,5 +1,6 @@
 package lorenssute.dossantos.francisco.galeriapblica;
 
+import android.Manifest;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.pm.PackageManager;
@@ -27,6 +28,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final int RESULT_REQUEST_PERMISSION = 2;
     BottomNavigationView bottomNavigationView;
 
     @Override
